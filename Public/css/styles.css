@@ -1,3 +1,22 @@
+/* Paleta de colores */
+
+:root{
+    --color-one: #a6051a;
+    --color-two: #ffeb00;
+    --color-three: #ffffff;
+    --color-four: #111111;
+    --color-five: #121f45;
+    --color-six: #223971;
+    --color-seven: #cc1e4a;
+    --color-eigth: #ffc906;
+    --color-nine: #00352f;
+    --color-ten: #00594f;
+}
+
+*{
+    box-sizing: border-box;
+}
+
 body { 
     font-family: Arial, sans-serif; 
     margin: 0;
@@ -9,8 +28,19 @@ body {
 header { 
     background-color: #333;
     color: white;
-    padding: 1rem;
+    padding: 4rem;
     text-align: center;
+    background-image: url(../img/f2004.png);
+    background-repeat: no-repeat;
+    background-size: 100% 108%;
+}
+
+nav{
+    background-color: var(--color-nine);
+    text-align: center;
+    padding: 0.3px;
+    margin: 0;
+    border: 0;
 }
 
 nav ul {
@@ -31,8 +61,9 @@ main {
 section {
     margin-bottom: 2rem;
 }
+
 footer {
-    background-color: #333;
+    background-color: var(--color-four);
     color: white; text-align: center;
     padding: 1rem;
     position: fixed;
