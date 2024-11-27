@@ -25,22 +25,30 @@ body {
     color: #333;
 }
 
-header { 
-    background-color: #333;
+header {
     color: white;
-    padding: 4rem;
     text-align: center;
-    background-image: url(../img/f2004.png);
-    background-repeat: no-repeat;
-    background-size: 100% 108%;
+    background-image: url(../img/logo\ \(4\).png);
+    background-size: 100% 100%;
+    height:300px;
 }
 
 nav{
     background-color: var(--color-nine);
     text-align: center;
-    padding: 0.3px;
+    padding: 1px;
     margin: 0;
     border: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav a:hover{
+    background-color: var(--color-three);
+    color: var(--color-four);
+    padding: 10px;
+    border-radius: 2px;
 }
 
 nav ul {
@@ -55,17 +63,53 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+
 main {
-    padding: 2rem;
+    padding: 20px;
+    background-color: var(--color-ten);
 }
+
+aside{
+    background-color: var(--color-four);
+    padding: 10px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+aside p{
+    color: var(--color-three);
+}
+
+aside h3{
+    color: var(--color-three);
+}
+
+aside h4{
+    color: var(--color-three);
+}
+
+
+.imgaside{
+    height: auto;
+    width: 300px;
+    border-radius: 5px;
+}
+
+
+
 section {
     margin-bottom: 2rem;
 }
 
 footer {
     background-color: var(--color-four);
-    color: white; text-align: center;
-    padding: 1rem;
+    color: var(--color-three); 
+    text-align: center;
+    padding: 0;
     position: fixed;
     bottom: 0;
     width: 100%;
