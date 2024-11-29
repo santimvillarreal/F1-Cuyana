@@ -122,3 +122,31 @@ footer {
     width: 100%;
     clear: both;
 }
+
+.titlehis{
+    display: flex;
+    justify-content: center;
+    color: var(--color-three);
+}
+
+.grid-container div img{
+    height: 120px;
+}
+
+.grid-container div{
+    height: 120px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 23px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    margin-left: 3px;
+    margin-right: 2px;
+}
+
+.navhis{
+    background-color: var(--color-four);
+}
