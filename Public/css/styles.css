@@ -31,6 +31,10 @@ header {
     height:300px;
 }
 
+.noti{
+    display: none;
+}
+
 nav{
     background-color: var(--color-nine);
     text-align: center;
@@ -45,7 +49,6 @@ nav{
 nav a:hover{
     background-color: var(--color-three);
     color: var(--color-four);
-    padding: 10px;
     border-radius: 2px;
 }
 
@@ -56,12 +59,13 @@ nav ul {
 
 nav ul li {
     display: inline;
-    padding: 30px;
+    padding: 10px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    padding: 10px;
 }
 
 main {
@@ -99,6 +103,10 @@ aside h4{
     height: auto;
     width: 300px;
     border-radius: 5px;
+}
+
+.imgaside:hover{
+    transform: scale(1.1)
 }
 
 section {
@@ -149,4 +157,84 @@ footer {
 
 .navhis{
     background-color: var(--color-four);
+}
+
+
+@media (max-width: 1440px) {
+    aside{
+        width: 300px;
+    }
+
+    section{
+        width: 250px;
+    }
+
+    .imgaside{
+        width: 250px;
+    }
+}
+
+/*Media Querys*/
+
+@media (max-width: 900px) {
+    aside{
+        display: none;
+    }
+
+    .noti{
+        display: inline;
+    }
+}
+ 
+@media (max-width: 768px){
+
+    header{
+        height: 100px;
+        background-image: none;
+        background-color: var(--color-five);
+        background-size: cover;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        position: unset;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        position: unset;
+    }
+
+    nav a{
+        font-weight: 550;
+    }
+
+    nav li{
+        height: 40px;
+    }
+
+    nav ul li a{
+        text-align: center;
+    }
+
+}
+
+.titlecal{
+    display: flex;
+    justify-content: center;
+    color: var(--color-three);
+}
+
+.titlerel{
+    display: flex;
+    justify-content: center;
+    color: var(--color-three);
+}
+
+.titlecon{
+    display: flex;
+    justify-content: center;
+    color: var(--color-three);
 }
