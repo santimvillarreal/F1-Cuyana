@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,11 +16,28 @@
             <li><a href="reglamento.html">Reglamento</a></li>
         </ul>
     </nav>
-    <main>
+    <main class="maincon">
         <div class="titlecon"><h1>Contacto</h1></div>
+        <div class="formcon">
+            <form action="">
+                <fieldset class="fieldsetcon">
+                    <legend class="legendcon">Formulario de Contacto</legend>
+                    <label class="labelcon" for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                    <label class="labelcon" for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" id="apellido" required>
+                    <label class="labelcon" for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                    <label class="labelcon" for="comment">Dejá tu comentario:</label>
+                    <textarea name="comentario" id="comment"></textarea>
+                    <input type="submit" value="submit">
+                    <input type="reset" value="Borrar">
+                </fieldset>
+            </form>
+        </div>
     </main>
     <footer>
-        <p>&copy; 2024 Santiago Villarreal. Fonoteca. Todos los derechos reservados.</p>
+        <p>&copy; 2024 Santiago Villarreal. F1 Cuyana. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
