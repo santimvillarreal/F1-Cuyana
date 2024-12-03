@@ -131,11 +131,7 @@ footer {
     clear: both;
 }
 
-.titlehis{
-    display: flex;
-    justify-content: center;
-    color: var(--color-three);
-}
+/* Div cabecera pagina historia*/
 
 .grid-container div img{
     height: 120px;
@@ -160,6 +156,8 @@ footer {
 }
 
 
+/*Media Querys*/
+
 @media (max-width: 1440px) {
     aside{
         width: 300px;
@@ -173,8 +171,6 @@ footer {
         width: 250px;
     }
 }
-
-/*Media Querys*/
 
 @media (max-width: 900px) {
     aside{
@@ -219,6 +215,20 @@ footer {
         text-align: center;
     }
 
+    .fieldsetcon{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+/* Titulos */
+
+.titlehis{
+    display: flex;
+    justify-content: center;
+    color: var(--color-three);
 }
 
 .titlecal{
@@ -237,4 +247,42 @@ footer {
     display: flex;
     justify-content: center;
     color: var(--color-three);
+}
+
+.maincon{
+    height: 100vh;
+}
+
+.formcon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+fieldset{
+    background-color: var(--color-four);
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    gap: 10px;
+    width: fit-content;
+    font-size: 1.4rem;
+    border: var(--color-one) 5px solid ;
+    border-radius: 10px;
+}
+
+fieldset legend{
+    padding: 5px;
+}
+
+
+
+.labelcon{
+    color: var(--color-three);
+    text-align: center;
+}
+
+.legendcon{
+    color: var(--color-three);
+    background-color: var(--color-four);
+    border-radius: 5px;
 }
