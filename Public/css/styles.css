@@ -235,6 +235,7 @@ footer {
     display: flex;
     justify-content: center;
     color: var(--color-three);
+    position: sticky;
 }
 
 .titlerel{
@@ -259,6 +260,8 @@ footer {
     align-content: center;
 }
 
+/* Formulario de contacto */
+
 fieldset{
     background-color: var(--color-four);
     display: grid;
@@ -274,8 +277,6 @@ fieldset legend{
     padding: 5px;
 }
 
-
-
 .labelcon{
     color: var(--color-three);
     text-align: center;
@@ -286,3 +287,38 @@ fieldset legend{
     background-color: var(--color-four);
     border-radius: 5px;
 }
+
+/* Calendario */
+
+.maincalen{
+    background-color: var(--color-ten);
+    margin-bottom: 50px;
+}
+
+.imgcal{
+    height: 330px;
+    width: auto;
+    padding: 10px;
+}
+
+.divimgc{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+}
+
+.titlescal{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.divimgc div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: var(--color-one) 5px solid ;
+    border-radius: 10px;
+    background-color: var(--color-three);
+}
+
