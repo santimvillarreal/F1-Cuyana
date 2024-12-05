@@ -156,71 +156,7 @@ footer {
 }
 
 
-/*Media Querys*/
 
-@media (max-width: 1440px) {
-    aside{
-        width: 300px;
-    }
-
-    section{
-        width: 250px;
-    }
-
-    .imgaside{
-        width: 250px;
-    }
-}
-
-@media (max-width: 900px) {
-    aside{
-        display: none;
-    }
-
-    .noti{
-        display: inline;
-    }
-}
- 
-@media (max-width: 768px){
-
-    header{
-        height: 100px;
-        background-image: none;
-        background-color: var(--color-five);
-        background-size: cover;
-    }
-
-    nav{
-        display: flex;
-        flex-direction: column;
-        position: unset;
-    }
-
-    nav ul{
-        display: flex;
-        flex-direction: column;
-        position: unset;
-    }
-
-    nav a{
-        font-weight: 550;
-    }
-
-    nav li{
-        height: 40px;
-    }
-
-    nav ul li a{
-        text-align: center;
-    }
-
-    .fieldsetcon{
-        display: flex;
-        flex-direction: column;
-    }
-
-}
 
 
 /* Titulos */
@@ -236,6 +172,7 @@ footer {
     justify-content: center;
     color: var(--color-three);
     position: sticky;
+    padding: 0;
 }
 
 .titlerel{
@@ -322,3 +259,108 @@ fieldset legend{
     background-color: var(--color-three);
 }
 
+.divimgc div h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+    background: linear-gradient(to right, var(--color-four), var(--color-four), var(--color-three) 98%);
+    color: var(--color-three);
+    margin-top: 0;
+}
+
+.emotes{
+    height: 25px;
+    width: auto;
+}
+
+.divimgc div p{
+    margin: -5px;
+}
+
+.divimgc div h4{
+    padding: -5px;
+}
+
+.divimgc div h3{
+    margin-top: -10px;
+}
+
+/*Media Querys*/
+
+@media (max-width: 1440px) {
+    aside{
+        width: 300px;
+    }
+
+    section{
+        width: 250px;
+    }
+
+    .imgaside{
+        width: 250px;
+    }
+
+    .divimgc{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    aside{
+        display: none;
+    }
+
+    .noti{
+        display: inline;
+    }
+}
+ 
+@media (max-width: 768px){
+
+    header{
+        height: 100px;
+        background-image: none;
+        background-color: var(--color-five);
+        background-size: cover;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        position: unset;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        position: unset;
+    }
+
+    nav a{
+        font-weight: 550;
+    }
+
+    nav li{
+        height: 40px;
+    }
+
+    nav ul li a{
+        text-align: center;
+    }
+
+    .fieldsetcon{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divimgc{
+        display: flex;
+        flex-direction: column;
+        position: unset;
+    }
+
+}
