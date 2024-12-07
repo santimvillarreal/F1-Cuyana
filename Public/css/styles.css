@@ -156,9 +156,6 @@ footer {
 }
 
 
-
-
-
 /* Titulos */
 
 .titlehis{
@@ -238,6 +235,13 @@ fieldset legend{
     padding: 10px;
 }
 
+.imgcalmon{
+    height: 348px;
+    width: auto;
+    padding: 10px;
+}
+
+
 .divimgc{
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -273,6 +277,11 @@ fieldset legend{
 .emotes{
     height: 25px;
     width: auto;
+}
+
+.emoteazer{
+    height: 20px;
+    width: 27px;
 }
 
 .divimgc div p{
