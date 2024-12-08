@@ -13,6 +13,8 @@
     --color-ten: #00594f;
 }
 
+/* Inicio y generalidades */
+
 *{
     box-sizing: border-box;
 }
@@ -135,9 +137,14 @@ footer {
 
 .grid-container div img{
     height: 120px;
+    width: 100%;
 }
 
 .grid-container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-three);
     height: 120px;
 }
 
@@ -153,8 +160,21 @@ footer {
 
 .navhis{
     background-color: var(--color-four);
+    position: sticky;
 }
 
+/* main historia */
+
+.mainhis h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-three);
+}
+
+.mainhis h3{
+    color: var(--color-three);
+}
 
 /* Titulos */
 
@@ -317,6 +337,20 @@ fieldset legend{
         grid-template-columns: 50% 50%;
         gap: 10px;
     }
+
+    
+}
+
+@media (max-width: 1280px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(5, 2fr);
+        gap: 20px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        margin-left: 3px;
+        margin-right: 2px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -371,6 +405,44 @@ fieldset legend{
         display: flex;
         flex-direction: column;
         position: unset;
+    }
+
+}
+
+@media (max-width: 560px) {
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        margin-left: 3px;
+        margin-right: 2px;
+    }
+
+    .grid-container .or2{
+        display: none;
+    }
+
+    .grid-container .or3{
+        display: none;
+    }
+
+    .grid-container .or4{
+        display: none;
+    }
+
+    .grid-container .or7{
+        display: none;
+    }
+
+    .grid-container .or8{
+        display: none;
+    }
+
+    .grid-container .or10{
+        display: none;
     }
 
 }
