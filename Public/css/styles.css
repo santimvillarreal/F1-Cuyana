@@ -161,6 +161,8 @@ footer {
 .navhis{
     background-color: var(--color-four);
     position: sticky;
+    top: 50px;
+    z-index: 0;
 }
 
 /* main historia */
@@ -174,6 +176,44 @@ footer {
 
 .mainhis h3{
     color: var(--color-three);
+}
+
+.emotesh{
+    height: 25px;
+    width: auto;
+}
+
+.camp{
+    display: grid;
+    grid-template-columns: 25% 20% 19% 18% 18%;
+    background: linear-gradient(to right, var(--color-ten)10%, var(--color-three)50%, var(--color-ten)88%);
+}
+
+.campeones .ms{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.campeones .tri{
+    color: var(--color-nine);
+}
+
+.campeones .tetra{
+    color: var(--color-nine)
+}
+
+.campeones .bi{
+    color: var(--color-nine);
+}
+
+.campeones  .multi{
+    color: var(--color-three);
+}
+
+.campeones .mono{
+    color: var(--color-three)
 }
 
 /* Titulos */
