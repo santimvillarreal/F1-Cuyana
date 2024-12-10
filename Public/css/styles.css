@@ -216,6 +216,39 @@ footer {
     color: var(--color-three)
 }
 
+.escampeonas{
+    background: linear-gradient(to right, var(--color-ten)10%, var(--color-three)50%, var(--color-ten)88%);
+}
+
+.tic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-ten);
+    padding-bottom: 20px;
+}
+
+.unset{
+    list-style-type: none;
+}
+
+.escampeonas1 .sf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    color: var(--color-four);
+    background: radial-gradient(var(--color-eigth));
+}
+
+.escampeonas1 ul li p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
 /* Titulos */
 
 .titlehis{
@@ -280,6 +313,16 @@ fieldset legend{
     color: var(--color-three);
     background-color: var(--color-four);
     border-radius: 5px;
+}
+
+.imgcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: auto;
+    border-radius: 60px;
+    padding:40px
 }
 
 /* Calendario */
