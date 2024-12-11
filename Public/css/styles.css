@@ -218,6 +218,7 @@ footer {
 
 .escampeonas{
     background: linear-gradient(to right, var(--color-ten)10%, var(--color-three)50%, var(--color-ten)88%);
+    padding-bottom: 20px;
 }
 
 .tic{
@@ -248,6 +249,77 @@ footer {
    align-items: center;
    text-align: center;
 }
+
+.hiscirc h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: var(--color-three);
+}
+
+.pieh{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: var(--color-three);
+    font-size: 18px;
+}
+
+
+.divcirhis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: var(--color-two) 5px solid ;
+    border-radius: 10px;
+    background-color: var(--color-six);
+}
+
+.divcirhis h3{
+    color: var(--color-three);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+.imgcirchis{
+    height: 500px;
+    width: auto;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: var(--color-three);
+}
+
+.imgcirchisk{
+    height: 500px;
+    width: auto;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: var(--color-three);
+    padding: 10px;
+}
+
+.circhis{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 15px;
+    margin-right: 17px;
+    margin-left: 2px;
+    margin-bottom:  50px;
+}
+
+.circhis p{
+    color: var(--color-three);
+}
+
+
 
 /* Titulos */
 
