@@ -33,10 +33,6 @@ header {
     height:300px;
 }
 
-.noti{
-    display: none;
-}
-
 nav{
     background-color: var(--color-nine);
     text-align: center;
@@ -264,7 +260,7 @@ footer {
     text-align: center;
     align-items: center;
     color: var(--color-three);
-    font-size: 18px;
+    font-size: 17px;
 }
 
 
@@ -304,6 +300,16 @@ footer {
     border-radius: 20px;
     background-color: var(--color-three);
     padding: 10px;
+}
+
+.imgcirchisw{
+    height: 500px;
+    width: auto;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: var(--color-three);
+    padding: 20px;
 }
 
 .circhis{
@@ -506,6 +512,26 @@ fieldset legend{
         margin-left: 3px;
         margin-right: 2px;
     }
+
+    .circhis{
+        margin-right: 10px;
+    }
+
+    .divcirhis{
+        padding: 15px;
+    }
+}
+
+@media (max-width: 1080px){
+    
+    .circhis{
+        display: flex;
+        flex-direction: column;
+        position: unset;
+        margin-right: 1px;
+    }
+
+
 }
 
 @media (max-width: 900px) {
@@ -515,6 +541,53 @@ fieldset legend{
 
     .noti{
         display: inline;
+    }
+
+    .camp{
+        display: flex;
+        flex-direction: column;
+        position: unset;
+        background: linear-gradient(to right, var(--color-ten)5%, var(--color-three)50%, var(--color-ten)95%);
+    }
+
+    .campeones{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .campeones .multi{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: var(--color-four);
+    }
+
+    .campeones .mono{
+        color: var(--color-four);
+    }
+
+    .campeones h3{
+        color: var(--color-four);
+    }
+
+    .campeones .bi{
+        color: var(--color-four);
+    }
+    
+    .campeones .tetra{
+        color: var(--color-four);
+    }
+
+    .campeones .tri{
+        color: var(--color-four);
+    }
+
+    .escampeonas{
+        background: linear-gradient(to right, var(--color-ten)5%, var(--color-three)50%, var(--color-ten)95%);
     }
 }
  
@@ -528,9 +601,11 @@ fieldset legend{
     }
 
     nav{
+        height: 225px;
         display: flex;
         flex-direction: column;
-        position: unset;
+        position: sticky;
+        padding-top: 0;
     }
 
     nav ul{
@@ -560,6 +635,10 @@ fieldset legend{
         display: flex;
         flex-direction: column;
         position: unset;
+    }
+
+    .navhis{
+        display: none;
     }
 
 }
