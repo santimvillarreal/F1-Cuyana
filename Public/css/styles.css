@@ -365,6 +365,12 @@ footer {
     align-content: center;
 }
 
+.titlenot{
+    display: flex;
+    justify-content: center;
+    color: var(--color-three);
+}
+
 /* Formulario de contacto */
 
 fieldset{
@@ -476,6 +482,31 @@ fieldset legend{
 
 .divimgc div h3{
     margin-top: -10px;
+}
+
+/* Reglamento */
+
+.mainregl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.regl h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.regl{
+    padding: 30px;
+    margin-top: 4%;
+    background-color: var(--color-ten);
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 20px;
 }
 
 /*Media Querys*/
