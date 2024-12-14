@@ -491,6 +491,8 @@ fieldset legend{
     justify-content: center;
     align-items: center;
     background-color: white;
+    background-image: url(../img/reglamento/F1-Bandera_a_cuadros1.png);
+    background-size: 25%;
 }
 
 .regl h1{
@@ -504,9 +506,19 @@ fieldset legend{
     margin-top: 4%;
     background-color: var(--color-ten);
     margin-bottom: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
-    border-radius: 20px;
+    margin-left: 11.6%;
+    margin-right: 11.6%;
+    border-radius: 30px;
+}
+
+.puntcarr{
+    height: 90px;
+    width: auto;
+}
+
+.puntspr{
+    height: 300px;
+    width: auto;
 }
 
 /*Media Querys*/
