@@ -521,6 +521,35 @@ fieldset legend{
     width: auto;
 }
 
+.imgband{
+    height: 60px;
+    width: auto;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+/*
+.flags .flagsp{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+*/
+
+
+.flagsp{
+    display: grid;
+    grid-template-columns: 12% 10% 77%;
+    align-items: center;
+}
+
+#sc{
+    width: 80px;
+}
+
+
 /*Media Querys*/
 
 @media (max-width: 1440px) {
