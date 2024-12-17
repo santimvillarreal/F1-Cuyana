@@ -501,6 +501,27 @@ fieldset legend{
     align-content: center;
 }
 
+.regl h2{
+    color: var(--color-three);
+}
+
+.regl h3{
+    color: var(--color-three);
+}
+
+.regl h4{
+    color: var(--color-three);
+}
+
+.regl p{
+    color: var(--color-three);
+}
+
+.regl li{
+    color: var(--color-three);
+}
+
+
 .regl{
     padding: 30px;
     margin-top: 4%;
@@ -528,16 +549,6 @@ fieldset legend{
     border-style: solid;
     border-radius: 5px;
 }
-
-/*
-.flags .flagsp{
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-*/
-
 
 .flagsp{
     display: grid;
