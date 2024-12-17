@@ -501,6 +501,27 @@ fieldset legend{
     align-content: center;
 }
 
+.regl h2{
+    color: var(--color-three);
+}
+
+.regl h3{
+    color: var(--color-three);
+}
+
+.regl h4{
+    color: var(--color-three);
+}
+
+.regl p{
+    color: var(--color-three);
+}
+
+.regl li{
+    color: var(--color-three);
+}
+
+
 .regl{
     padding: 30px;
     margin-top: 4%;
@@ -520,6 +541,25 @@ fieldset legend{
     height: 300px;
     width: auto;
 }
+
+.imgband{
+    height: 60px;
+    width: auto;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.flagsp{
+    display: grid;
+    grid-template-columns: 12% 10% 77%;
+    align-items: center;
+}
+
+#sc{
+    width: 80px;
+}
+
 
 /*Media Querys*/
 
