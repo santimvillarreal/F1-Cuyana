@@ -568,7 +568,7 @@ fieldset legend{
         width: 300px;
     }
 
-    section{
+    .indexsec{
         width: 250px;
     }
 
@@ -582,6 +582,22 @@ fieldset legend{
         gap: 10px;
     }
 
+    .regl section{
+        width: 1096px;
+    }
+    
+    .regl{
+        padding: 20px;
+        margin-top: 3.5%;
+        border-radius: 25px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 4.5%;
+    }
+
+    .flagsp{
+        grid-template-columns: 15% 10% 75%;
+    }
     
 }
 
@@ -603,6 +619,38 @@ fieldset legend{
     .divcirhis{
         padding: 15px;
     }
+
+    .regl section{
+        width: 966px;
+    }
+    
+    .regl{
+        padding: 18px;
+        margin-top: 3.5%;
+        border-radius: 18px;
+        margin-bottom: 3%;
+    }
+
+    .imgcirchis{
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+
+    .imgcirchisk{
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+
+    .imgcirchisw{
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+
+    .imgcon{
+        margin-bottom: 5%;
+        width: 100%;
+    }
+    
 }
 
 @media (max-width: 1080px){
@@ -612,6 +660,14 @@ fieldset legend{
         flex-direction: column;
         position: unset;
         margin-right: 1px;
+    }
+
+    .regl section{
+        width: 796px;
+    }
+
+    .flagsp{
+        grid-template-columns: 20% 15% 65%;
     }
 
 
@@ -672,15 +728,42 @@ fieldset legend{
     .escampeonas{
         background: linear-gradient(to right, var(--color-ten)5%, var(--color-three)50%, var(--color-ten)95%);
     }
+
+    .regl section{
+        width: 626px;
+    }
+    
+    .regl{
+        padding: 15px;
+        margin-top: 3%;
+        border-radius: 15px;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 4%;
+    }
+
+    .flagsp{
+        grid-template-columns: 25% 15% 60%;
+    }
+
+    .imgcon{
+        margin-top: 4%;
+        margin-bottom: 15%;
+        height: 400px;
+        width: auto;
+        border-radius: 50px;
+        padding: 30px
+    }
+
 }
  
 @media (max-width: 768px){
 
     header{
         height: 100px;
-        background-image: none;
-        background-color: var(--color-five);
-        background-size: cover;
+        width: auto;
+        background-image: url(../img/logo\ responsive+.png);
+        background-size: 100% 100%
     }
 
     nav{
@@ -709,6 +792,18 @@ fieldset legend{
         text-align: center;
     }
 
+    body nav{
+        height: 200px;
+    }
+
+    nav ul{
+        height: 15px
+    }
+
+    nav ul li{
+        height: 35px;
+    }
+
     .fieldsetcon{
         display: flex;
         flex-direction: column;
@@ -724,9 +819,113 @@ fieldset legend{
         display: none;
     }
 
+    .regl section{
+        width: 536px;
+    }
+    
+    .regl{
+        padding: 12px;
+        margin-top: 2.6%;
+        margin-left: 6.6%;
+        margin-right: 6.6%;
+        margin-bottom: 2%;
+    }
+
+    .flagsp{
+        grid-template-columns: 30% 20% 50%;
+    }
+
+    .imgcon{
+        margin-top: 4%;
+        margin-bottom: 15%;
+        height: 400px;
+        width: auto;
+        border-radius: 50px;
+        padding: 30px
+    }
+
+}
+
+@media (max-width: 648px){
+    .regl section{
+        width: 426px;
+    }
+    
+    .regl{
+        padding: 12px;
+        margin-top: 2%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .flagsp{
+        display: flex;
+        flex-direction: column;
+        position: unset;
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    .flags .flagsp{
+        padding: 10px;
+    }
+
+    .flagsp i{
+        padding: 10px;
+    }
+
+    .puntcarr{
+        height: 90px;
+        width: 100%;
+    }
+
+    .imgcirchis{
+        height: 400px;
+        width: auto;
+        margin-right: 2%;
+        margin-left: 2%;
+        border-radius: 15px;
+    }
+
+    .imgcirchisk{
+        height: 400px;
+        width: auto;
+        margin-right: 2%;
+        margin-left: 2%;
+        border-radius: 15px;
+    }
+
+    .imgcirchisw{
+        height: 400px;
+        width: auto;
+        margin-right: 2%;
+        margin-left: 2%;
+        border-radius: 15px;
+    }
+
+    .imgcon{
+        margin-bottom: 10%;
+        height: 350px;
+        border-radius: 40px;
+        padding: 15%;
+    }
+    
+
 }
 
 @media (max-width: 560px) {
+
+    body nav{
+        height: 180px;
+    }
+
+    nav ul{
+        height: 10px
+    }
+
+    nav ul li{
+        height: 30px;
+    }
 
     .grid-container{
         display: grid;
@@ -760,6 +959,67 @@ fieldset legend{
 
     .grid-container .or10{
         display: none;
+    }
+
+    .regl section{
+        width: 340px;
+    }
+
+    .regl{
+        margin-bottom: 10%;
+    }
+
+    .imgcon{
+        margin-bottom: 2%;
+        height: 280px;
+        border-radius: 30px;
+        padding: 5%;
+    }
+
+}
+
+@media (max-width: 398px){
+    .regl section{
+        width: 280px;
+    }
+
+    footer{
+        height: 70px;
+        width: auto;
+        padding: 8px;
+        text-align: center;
+    }
+
+    .regl{
+        margin-bottom: 15%;
+    }
+
+    .imgcirchis{
+        height: 300px;
+        width: auto;
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+    }
+
+    .imgcirchisk{
+        height: 300px;
+        width: auto;
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+    }
+
+    .imgcirchisw{
+        height: 300px;
+        width: auto;
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+    }
+
+    .imgcon{
+        margin-bottom: 2%;
+        height: 200px;
+        border-radius: 25px;
+        padding: 2%;
     }
 
 }
