@@ -193,15 +193,15 @@ footer {
 }
 
 .campeones .tri{
-    color: var(--color-nine);
+    color: var(--color-four);
 }
 
 .campeones .tetra{
-    color: var(--color-nine)
+    color: var(--color-four)
 }
 
 .campeones .bi{
-    color: var(--color-nine);
+    color: var(--color-four);
 }
 
 .campeones  .multi{
@@ -560,6 +560,68 @@ fieldset legend{
     width: 80px;
 }
 
+/* Sección noticias */
+
+.mainnot{
+    background-color: var(--color-three);
+}
+
+.mainnot h1{
+    color: var(--color-four);
+}
+
+.imgnot{
+    height: 400px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.sectnot{
+    margin: 0;
+    padding: 20px;
+    border: 2.5px var(--color-four) dotted;
+    border-radius: 20px;
+    width: 80%; 
+    height: 100%;
+}
+
+.divmainnot{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5%;
+    margin-bottom: 5%;
+    padding: 35px;
+}
+
+.divsectnot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+.sectnot h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.artnot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
 
 /*Media Querys*/
 
@@ -755,6 +817,14 @@ fieldset legend{
         padding: 30px
     }
 
+    .divmainnot{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
 }
  
 @media (max-width: 768px){
@@ -793,7 +863,7 @@ fieldset legend{
     }
 
     body nav{
-        height: 200px;
+        height: 240px;
     }
 
     nav ul{
@@ -842,6 +912,10 @@ fieldset legend{
         width: auto;
         border-radius: 50px;
         padding: 30px
+    }
+
+    .imgnot{
+        height: 350px;
     }
 
 }
@@ -910,13 +984,21 @@ fieldset legend{
         padding: 15%;
     }
     
+    .imgnot{
+        height: 300px;
+        width: 100%;
+    }
+
+    .divmainnot{
+        padding: 30px;
+    }
 
 }
 
 @media (max-width: 560px) {
 
     body nav{
-        height: 180px;
+        height: 215px;
     }
 
     nav ul{
@@ -976,6 +1058,14 @@ fieldset legend{
         padding: 5%;
     }
 
+    .imgnot{
+        height: 275px;
+        
+    }
+
+    .divmainnot{
+        padding: 25px;
+    }
 }
 
 @media (max-width: 398px){
@@ -1020,6 +1110,10 @@ fieldset legend{
         height: 200px;
         border-radius: 25px;
         padding: 2%;
+    }
+
+    .divmainnot{
+        padding: 20px;
     }
 
 }
