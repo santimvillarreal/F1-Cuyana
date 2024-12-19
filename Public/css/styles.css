@@ -55,9 +55,6 @@ nav a:hover{
 nav ul {
     list-style: none;
     padding: 0;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 nav ul li {
@@ -75,6 +72,9 @@ main {
     padding: 20px;
     background-color: var(--color-ten);
     margin-bottom: 30px;
+}
+
+.mainindex{
     display: grid;
     grid-template-columns: 30% 70%;
 }
@@ -85,10 +85,10 @@ aside{
     width: 370px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 15%;
+    padding-bottom: -300px;
 }
 
 aside p{
@@ -171,18 +171,48 @@ p{
     margin-bottom: 10px;
 }
 
-.carrusel{
-    height: 90%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.carousel-item{
+    margin: 0;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    z-index: 0;
 }
 
-#carouselExampleCaptions{
-    height: auto;
-    width: 90%;
+.carousel-item img{
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 6%;
+    margin-top: -4%;
+}
+
+#captionscarousel{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#captionscarousel h5{
+    color: var(--color-three);
+    opacity: 1;
+}
+
+#captionscarousel p{
+    color: var(--color-three);
+    opacity: 1;
+}
+
+.carousel-control-prev{
+    z-index: 0;
+}
+
+.carousel-control-next{
+    z-index: 0;
+}
+
+.carousel-indicators{
+    z-index: 0;
 }
 
 /* Div cabecera pagina historia*/
@@ -616,6 +646,17 @@ fieldset legend{
     width: 80px;
 }
 
+.leermas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.aleermas{
+    text-decoration: none;
+}
+
 /* Sección noticias */
 
 .mainnot{
@@ -728,6 +769,13 @@ fieldset legend{
         grid-template-columns: 15% 10% 75%;
     }
     
+    .carousel-item{
+        padding-bottom: 9%;
+    }
+
+    .carousel-item img{
+        padding: 9%;
+    }
 }
 
 @media (max-width: 1280px){
@@ -780,6 +828,8 @@ fieldset legend{
         width: 100%;
     }
     
+ 
+    
 }
 
 @media (max-width: 1080px){
@@ -799,6 +849,9 @@ fieldset legend{
         grid-template-columns: 20% 15% 65%;
     }
 
+    .carousel-item img{
+        margin-top: -2%;
+    }
 
 }
 
@@ -892,6 +945,22 @@ fieldset legend{
         gap: 25px;
     }
 
+
+    .mainindex{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .carousel-item{
+        padding-bottom: 10%;
+    }
+
+    .carousel-item img{
+        margin-top: -2%;
+        padding: 10%;
+    }
+
 }
  
 @media (max-width: 768px){
@@ -904,7 +973,6 @@ fieldset legend{
     }
 
     nav{
-        height: 225px;
         display: flex;
         flex-direction: column;
         position: sticky;
@@ -930,7 +998,7 @@ fieldset legend{
     }
 
     body nav{
-        height: 220px;
+        height: 240px;
     }
 
     nav ul{
@@ -939,6 +1007,12 @@ fieldset legend{
 
     nav ul li{
         height: 35px;
+    }
+
+    #navindex{
+        padding-top: -10%;
+        border-top: -5%;
+        height: 240px;
     }
 
     .fieldsetcon{
@@ -984,7 +1058,14 @@ fieldset legend{
     .imgnot{
         height: 350px;
     }
+    .carousel-item{
+        padding-bottom: 12%;
+    }
 
+    .carousel-item img{
+        padding: 12%;
+        height: 450px;
+    }
 }
 
 @media (max-width: 648px){
@@ -1060,6 +1141,22 @@ fieldset legend{
         padding: 30px;
     }
 
+    .carousel-item{
+        padding-bottom: 11%;
+    }
+
+    .carousel-item img{
+        padding: 11%;
+    }
+
+    .carousel-item{
+        padding-bottom: 14%;
+    }
+
+    .carousel-item img{
+        padding: 14%;
+    }
+
 }
 
 @media (max-width: 560px) {
@@ -1074,6 +1171,12 @@ fieldset legend{
 
     nav ul li{
         height: 30px;
+    }
+
+    #navindex{
+        padding-top: -10%;
+        border-top: -5%;
+        height: 215px;
     }
 
     .grid-container{
@@ -1133,6 +1236,15 @@ fieldset legend{
     .divmainnot{
         padding: 25px;
     }
+
+    .carousel-item{
+        padding-bottom: 20%;
+    }
+
+    .carousel-item img{
+        padding: 20%;
+    }
+
 }
 
 @media (max-width: 398px){
@@ -1181,6 +1293,15 @@ fieldset legend{
 
     .divmainnot{
         padding: 20px;
+    }
+
+    .carousel-item{
+        padding-bottom: 22%;
+    }
+
+    .carousel-item img{
+        padding: 22%;
+        height: 425px;
     }
 
 }
